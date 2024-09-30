@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #5e7ddb;
+  padding: 1.25em;
+}
+
+.navbar__list {
+  margin: 0;
+  list-style: none;
+}
+
+.navbar__list__item {
+
+}
+
+.navbar__list__item__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.25em;
+}
