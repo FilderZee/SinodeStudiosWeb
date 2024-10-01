@@ -1,7 +1,9 @@
 import React from "react";
 import ContentCSS from "./Content.module.css";
+import Card from "./Card";
 
 const Content = () => {
+
   return (
     <>
       <div className={ContentCSS.container}>
@@ -13,42 +15,12 @@ const Content = () => {
       <div className={ContentCSS.projects}>
         <h2 className={ContentCSS.projects__heading}>Naše projekty</h2>
         <div className={ContentCSS.projects__cards}>
-          <div className={ContentCSS.projects__card}>
-            <h3 className={ContentCSS.projects__card__heading}>NewProject</h3>
-            <p className={ContentCSS.projects__card__text}>
-              Some random text about our beautiful project
-            </p>
-          </div>
-          <div className={ContentCSS.projects__card}>
-            <h3 className={ContentCSS.projects__card__heading}>NewProject</h3>
-            <p className={ContentCSS.projects__card__text}>
-              Some random text about our beautiful project
-            </p>
-          </div>
-          <div className={ContentCSS.projects__card}>
-            <h3 className={ContentCSS.projects__card__heading}>NewProject</h3>
-            <p className={ContentCSS.projects__card__text}>
-              Some random text about our beautiful project
-            </p>
-          </div>
-          <div className={ContentCSS.projects__card}>
-            <h3 className={ContentCSS.projects__card__heading}>NewProject</h3>
-            <p className={ContentCSS.projects__card__text}>
-              Some random text about our beautiful project
-            </p>
-          </div>
-          <div className={ContentCSS.projects__card}>
-            <h3 className={ContentCSS.projects__card__heading}>NewProject</h3>
-            <p className={ContentCSS.projects__card__text}>
-              Some random text about our beautiful project
-            </p>
-          </div>
-          <div className={ContentCSS.projects__card}>
-            <h3 className={ContentCSS.projects__card__heading}>NewProject</h3>
-            <p className={ContentCSS.projects__card__text}>
-              Some random text about our beautiful project
-            </p>
-          </div>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
     </>
