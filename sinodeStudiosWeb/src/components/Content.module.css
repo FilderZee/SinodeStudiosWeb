@@ -48,6 +48,14 @@
   box-shadow: 5px 5px 5px #000;
   height: 10em;
   gap: 2em;
+  transform: translateY(0);
+  transition: transform .5s ease;
+}
+
+.projects__card:hover {
+  transform: translateY(-10px);
+  transition: transform .5s ease;
+  cursor: pointer;
 }
 
 .projects__card__heading {
